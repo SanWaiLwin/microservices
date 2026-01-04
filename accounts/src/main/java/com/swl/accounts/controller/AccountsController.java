@@ -1,6 +1,7 @@
 package com.swl.accounts.controller;
 
 import com.swl.accounts.constants.AccountsConstants;
+import com.swl.accounts.dto.AccountsContactInfoDto;
 import com.swl.accounts.dto.CustomerDto;
 import com.swl.accounts.dto.ErrorResponseDto;
 import com.swl.accounts.dto.ResponseDto;
@@ -42,6 +43,9 @@ public class AccountsController {
 
     @Autowired
     private Environment environment;
+
+    @Autowired
+    private AccountsContactInfoDto accountsContactInfoDto;
 
     @Operation(
             summary = "Create Account REST API",
@@ -217,6 +221,32 @@ public class AccountsController {
         return ResponseEntity
                 .status(HttpStatus.OK)
                 .body(environment.getProperty("MAVEN_HOME"));
+    }
+
+
+    @Operation(
+            summary = "Get Contact info",
+            description = "Get Contact info that is deployed into accounts microservice"
+    )
+    @ApiResponses({
+            @ApiResponse(
+                    responseCode = "200",
+                    description = "HTTP Status OK"
+            ),
+            @ApiResponse(
+                    responseCode = "500",
+                    description = "HTTP Status Internal Server Error",
+                    content = @Content(
+                            schema = @Schema(implementation = ErrorResponseDto.class)
+                    )
+            )
+    }
+    )
+    @GetMapping("/contact-info")
+    public ResponseEntity<AccountsContactInfoDto> getContactInfo() {
+        return ResponseEntity
+                .status(HttpStatus.OK)
+                .body(accountsContactInfoDto);
     }
 
 }
