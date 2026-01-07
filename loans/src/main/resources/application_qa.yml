@@ -1,0 +1,16 @@
+spring:
+  config:
+    activate:
+      on-profile: "qa"
+
+build:
+  version: "2.0"
+
+loans:
+  message: "Welcome to SWL cards related QA APIs "
+  contactDetails:
+    name: "Khin Thitsar - QA Lead"
+    email: "khinthitsar@swl.com"
+  onCallSupport:
+    - (95) 9250-4321
+    - (66) 8094-4321
