@@ -4,51 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6e400b37-70c9-45d5-8aa2-d49396223c96" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cards/src/main/java/com/swl/cards/CardsApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cards/src/main/java/com/swl/cards/audit/AuditAwareImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cards/src/main/java/com/swl/cards/constants/CardsConstants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cards/src/main/java/com/swl/cards/controller/CardsController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cards/src/main/java/com/swl/cards/dto/CardsDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cards/src/main/java/com/swl/cards/dto/ErrorResponseDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cards/src/main/java/com/swl/cards/dto/ResponseDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cards/src/main/java/com/swl/cards/entity/BaseEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cards/src/main/java/com/swl/cards/entity/Cards.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cards/src/main/java/com/swl/cards/exception/CardAlreadyExistsException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cards/src/main/java/com/swl/cards/exception/GlobalExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cards/src/main/java/com/swl/cards/exception/ResourceNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cards/src/main/java/com/swl/cards/mapper/CardsMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cards/src/main/java/com/swl/cards/repository/CardsRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cards/src/main/java/com/swl/cards/service/ICardsService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cards/src/main/java/com/swl/cards/service/impl/CardsServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cards/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cards/src/main/resources/schema.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loans/src/main/java/com/swl/loans/LoansApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loans/src/main/java/com/swl/loans/audit/AuditAwareImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loans/src/main/java/com/swl/loans/constants/LoansConstants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loans/src/main/java/com/swl/loans/controller/LoansController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loans/src/main/java/com/swl/loans/dto/ErrorResponseDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loans/src/main/java/com/swl/loans/dto/LoansDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loans/src/main/java/com/swl/loans/dto/ResponseDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loans/src/main/java/com/swl/loans/entity/BaseEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loans/src/main/java/com/swl/loans/entity/Loans.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loans/src/main/java/com/swl/loans/exception/GlobalExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loans/src/main/java/com/swl/loans/exception/LoanAlreadyExistsException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loans/src/main/java/com/swl/loans/exception/ResourceNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loans/src/main/java/com/swl/loans/mapper/LoansMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loans/src/main/java/com/swl/loans/repository/LoansRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loans/src/main/java/com/swl/loans/service/ILoansService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loans/src/main/java/com/swl/loans/service/impl/LoansServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loans/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loans/src/main/resources/schema.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+    <list default="true" id="ca76bc7b-3450-4897-ba4f-ff5e6492df31" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/configserver/src/main/resources/config/accounts.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/configserver/src/main/resources/config/cards.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/configserver/src/main/resources/config/loans.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/src/main/resources/application_prod.yml" beforeDir="false" afterPath="$PROJECT_DIR$/configserver/src/main/resources/config/accounts-prod.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/src/main/resources/application_qa.yml" beforeDir="false" afterPath="$PROJECT_DIR$/configserver/src/main/resources/config/accounts-qa.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cards/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cards/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cards/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cards/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cards/src/main/resources/application_prod.yml" beforeDir="false" afterPath="$PROJECT_DIR$/configserver/src/main/resources/config/cards-prod.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cards/src/main/resources/application_qa.yml" beforeDir="false" afterPath="$PROJECT_DIR$/configserver/src/main/resources/config/cards-qa.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loans/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/loans/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loans/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/loans/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loans/src/main/resources/application_prod.yml" beforeDir="false" afterPath="$PROJECT_DIR$/configserver/src/main/resources/config/loans-prod.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loans/src/main/resources/application_qa.yml" beforeDir="false" afterPath="$PROJECT_DIR$/configserver/src/main/resources/config/loans-qa.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +34,10 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="KubernetesApiPersistence"><![CDATA[{}]]></component>
+  <component name="KubernetesApiProvider"><![CDATA[{
+  "isMigrated": true
+}]]></component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -66,45 +46,106 @@
     </option>
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
   "associatedIndex": 8
 }]]></component>
-  <component name="ProjectId" id="37EjTBSKigvfQAe9Z6gWJbE6njg" />
+  <component name="ProjectId" id="37v6RyE6SVyDhAUXnlHnU5eaO8B" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.ConfigserverApplication.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "Spring Boot.AccountsApplication.executor": "Run",
+    "Spring Boot.CardsApplication.executor": "Run",
+    "Spring Boot.ConfigserverApplication.executor": "Run",
+    "Spring Boot.LoansApplication.executor": "Run",
     "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
     "git-widget-placeholder": "main",
     "junie.onboarding.icon.badge.shown": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/microservices/loans/src/main/resources",
+    "last_opened_file_path": "D:/microservices/configserver/src/main/resources/config",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "run.configurations.included.in.services": "true",
     "to.speed.mode.migration.done": "true",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\microservices\loans\src\main\resources" />
-      <recent name="D:\microservices\loans\src\main\java\com\swl\loans" />
+      <recent name="D:\microservices\configserver\src\main\resources\config" />
     </key>
   </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="KtorApplicationConfigurationType" />
+        <option value="MicronautRunConfigurationType" />
+        <option value="QuarkusRunConfigurationType" />
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+    <option name="configurationStatuses">
+      <map>
+        <entry key="SpringBootApplicationConfigurationType">
+          <value>
+            <map>
+              <entry key="AccountsApplication" value="STOPPED" />
+              <entry key="CardsApplication" value="STOPPED" />
+              <entry key="ConfigserverApplication" value="STOPPED" />
+              <entry key="LoansApplication" value="STOPPED" />
+            </map>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="RunManager" selected="Spring Boot.LoansApplication">
+    <configuration name="ConfigserverApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.swl.configserver.ConfigserverApplication" />
+      <module name="configserver" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.swl.configserver.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="AccountsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
       <module name="accounts" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.swl.accounts.AccountsApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CardsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="cards" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.swl.cards.CardsApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConfigserverApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="configserver" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.swl.configserver.ConfigserverApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -117,6 +158,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ConfigserverApplication" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -128,12 +174,12 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="6e400b37-70c9-45d5-8aa2-d49396223c96" name="Changes" comment="" />
-      <created>1766475129927</created>
+      <changelist id="ca76bc7b-3450-4897-ba4f-ff5e6492df31" name="Changes" comment="" />
+      <created>1767771196291</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1766475129927</updated>
-      <workItem from="1766475130970" duration="577000" />
+      <updated>1767771196291</updated>
+      <workItem from="1767771198660" duration="6582000" />
     </task>
     <servers />
   </component>

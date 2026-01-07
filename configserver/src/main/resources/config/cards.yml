@@ -1,0 +1,11 @@
+build:
+  version: "3.0"
+
+cards:
+  message: "Welcome to SWL cards related local APIs "
+  contactDetails:
+    name: "San Wai - Developer"
+    email: "sanwai@swl.com"
+  onCallSupport:
+    - (95) 9250-1234
+    - (66) 8094-1345
